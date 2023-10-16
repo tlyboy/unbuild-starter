@@ -1,6 +1,6 @@
 # unbuild-starter
 
-🚀 unbuild Starter
+🚀 unbuild starter
 
 ## 使用说明
 
