@@ -1,3 +1,3 @@
-export function test() {
-  return 'works!'
+export function log(...args: any[]) {
+  console.log(...args)
 }
