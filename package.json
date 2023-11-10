@@ -2,7 +2,7 @@
   "name": "unbuild-starter",
   "type": "module",
   "version": "1.0.0",
-  "packageManager": "pnpm@8.9.0",
+  "packageManager": "pnpm@8.10.2",
   "description": "",
   "author": "Guany",
   "license": "MIT",
@@ -10,26 +10,28 @@
   "sideEffects": false,
   "exports": {
     ".": {
+      "types": "./dist/index.d.ts",
       "import": "./dist/index.mjs",
       "require": "./dist/index.cjs"
     }
   },
   "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "files": [
     "dist"
   ],
   "scripts": {
-    "dev": "esno ./src/main.ts",
+    "dev": "vitest",
     "build": "unbuild",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
   },
   "devDependencies": {
     "@antfu/eslint-config": "1.0.0-beta.27",
-    "eslint": "^8.51.0",
-    "esno": "^0.17.0",
+    "eslint": "^8.53.0",
     "typescript": "^5.2.2",
-    "unbuild": "^2.0.0"
+    "unbuild": "^2.0.0",
+    "vitest": "^0.34.6"
   }
 }
