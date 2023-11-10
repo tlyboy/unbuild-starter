@@ -1,8 +1,6 @@
-import { describe, expect, it } from 'vitest'
-import {} from '../src'
+import { expect, it } from 'vitest'
+import { sum } from '../src'
 
-describe('packageName', () => {
-  it.todo('pass', () => {
-    expect(true).toBe(true)
-  })
+it('adds 1 + 2 to equal 3', () => {
+  expect(sum(1, 2)).toBe(3)
 })
