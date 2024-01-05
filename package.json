@@ -2,7 +2,7 @@
   "name": "unbuild-starter",
   "type": "module",
   "version": "1.0.0",
-  "packageManager": "pnpm@8.12.1",
+  "packageManager": "pnpm@8.14.0",
   "description": "",
   "author": "Guany",
   "license": "MIT",
@@ -29,7 +29,7 @@
     "lint:fix": "eslint . --fix"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^2.4.6",
+    "@antfu/eslint-config": "^2.6.1",
     "eslint": "^8.56.0",
     "typescript": "^5.3.3",
     "unbuild": "^2.0.0",
