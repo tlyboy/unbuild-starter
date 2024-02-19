@@ -1,7 +1,13 @@
+// @ts-check
 import antfu from '@antfu/eslint-config'
 
-export default antfu({
-  rules: {
-    'no-console': 'off',
+export default antfu(
+  {
+    formatters: true,
   },
-})
+  {
+    rules: {
+      'no-console': 'off',
+    },
+  },
+)
