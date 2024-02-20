@@ -2,7 +2,7 @@
   "name": "unbuild-starter",
   "type": "module",
   "version": "1.0.0",
-  "packageManager": "pnpm@8.15.2",
+  "packageManager": "pnpm@8.15.3",
   "description": "",
   "author": "Guany",
   "license": "MIT",
@@ -34,6 +34,6 @@
     "eslint-plugin-format": "^0.1.0",
     "typescript": "^5.3.3",
     "unbuild": "^2.0.0",
-    "vitest": "^1.2.2"
+    "vitest": "^1.3.0"
   }
 }
