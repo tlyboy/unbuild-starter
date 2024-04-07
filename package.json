@@ -23,7 +23,8 @@
   ],
   "scripts": {
     "build": "unbuild",
-    "dev": "vitest"
+    "dev": "vitest",
+    "format": "prettier --write ."
   },
   "devDependencies": {
     "prettier": "^3.2.5",
